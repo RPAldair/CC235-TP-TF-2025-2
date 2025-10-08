@@ -51,7 +51,9 @@ Desarrollar un sistema automatizado que aplique técnicas de procesamiento digit
 - **Normal:** 10,192 imágenes
 - **Total:** 21,165 radiografías
 
-En esta oportunidad tomaremos como dataset el conjunto Normal de 10,000 imagenes, el resto del conjunto servirá eventualmente
+Y el mismo volumen de imagenes en mascaras de las distintas clases de radiografias, sumando más de 40 000 registros. Además se nos brinda, para cada clase, si respectivo archivo de metadatos, con información simple de los conjuntos.
+
+En esta oportunidad tomaremos un conjunto de 10,000 imagenes aproximaramente con proporciones similares al del conjunto completo como dataset Original.
 
 ### Características
 - **Formato:** PNG

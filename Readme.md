@@ -5,17 +5,16 @@
 Sistema inteligente de procesamiento y clasificación de imágenes radiográficas para el diagnóstico asistido de COVID-19, Neumonía Viral y Opacidad Pulmonar, utilizando técnicas clásicas de procesamiento de imágenes y Deep Learning.
 
 **Curso:** CC235 - Procesamiento de Imágenes  
-**Ciclo:** 2025-02  
-**Universidad:** [Tu Universidad]
+**Ciclo:** 2025-02
 
 ---
 
-## 👥 Integrantes del Equipo
+## Integrantes del Equipo
 
-César Gabriel Avalos Sánchez		-	u202310307
-Fabian Marcelo Rojas Cuadros		-	u202218498
-Leonardo Franco Gamboa Huilcaya	-	u202322950
-Piero Aldair Rivas Pinto			-	u202122405
+1. César Gabriel Avalos Sánchez		-	u202310307
+2. Fabian Marcelo Rojas Cuadros		-	u202218498
+3. Leonardo Franco Gamboa Huilcaya	-	u202322950
+4. Piero Aldair Rivas Pinto			-	u202122405
 
 ---
 
@@ -52,6 +51,8 @@ Desarrollar un sistema automatizado que aplique técnicas de procesamiento digit
 - **Normal:** 10,192 imágenes
 - **Total:** 21,165 radiografías
 
+En esta oportunidad tomaremos como dataset el conjunto Normal de 10,000 imagenes, el resto del conjunto servirá eventualmente
+
 ### Características
 - **Formato:** PNG
 - **Resolución:** Variable (299×299 a 1024×1024 píxeles)
@@ -78,40 +79,6 @@ Desarrollar un sistema automatizado que aplique técnicas de procesamiento digit
 - Detección de bordes (Canny, Sobel)
 - Operaciones morfológicas (erosión, dilatación)
 
-### 4. Modelos Implementados
-
-#### Modelo Clásico
-```
-Realce → Segmentación → Extracción Features → Clasificación
-                         (HOG, LBP, GLCM)      (SVM / Random Forest)
-```
-
-**Características extraídas:**
-- HOG (Histogram of Oriented Gradients)
-- LBP (Local Binary Patterns)
-- GLCM (Gray-Level Co-occurrence Matrix)
-- Estadísticas del histograma
-
-#### Modelo Deep Learning
-```
-ResNet50 (ImageNet) → Fine-tuning → Clasificación (4 clases)
-```
-
-**Arquitectura:**
-- Base: ResNet50 preentrenada
-- Global Average Pooling
-- Dense(512) + Dropout(0.5)
-- Dense(256) + Dropout(0.3)
-- Softmax(4)
-
-**Entrenamiento:**
-- Optimizador: Adam (lr=1e-4)
-- Data Augmentation
-- Early Stopping
-- ReduceLROnPlateau
-
----
-
 ## Referencias Bibliográficas
 
 1. ACT Accelerator Ethics & Governance Working Group. (2020, 28 mayo). Ethical considerations to guide the use of digital proximity tracking technologies for COVID-19 contact tracing. Recuperado de https://www.who.int/publications/i/item/WHO-2019-nCoV-Ethics_Contact_tracing_apps-2020.1 
@@ -128,7 +95,7 @@ ResNet50 (ImageNet) → Fine-tuning → Clasificación (4 clases)
 
 
 
-## 📝 Licencia
+## Licencia
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 

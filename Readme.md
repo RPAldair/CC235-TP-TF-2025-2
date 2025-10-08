@@ -52,6 +52,8 @@ Desarrollar un sistema automatizado que aplique técnicas de procesamiento digit
 - **Normal:** 10,192 imágenes
 - **Total:** 21,165 radiografías
 
+En esta oportunidad tomaremos como dataset el conjunto Normal de 10,000 imagenes, el resto del conjunto servirá eventualmente
+
 ### Características
 - **Formato:** PNG
 - **Resolución:** Variable (299×299 a 1024×1024 píxeles)

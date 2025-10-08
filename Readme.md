@@ -5,12 +5,11 @@
 Sistema inteligente de procesamiento y clasificación de imágenes radiográficas para el diagnóstico asistido de COVID-19, Neumonía Viral y Opacidad Pulmonar, utilizando técnicas clásicas de procesamiento de imágenes y Deep Learning.
 
 **Curso:** CC235 - Procesamiento de Imágenes  
-**Ciclo:** 2025-02  
-**Universidad:** [Tu Universidad]
+**Ciclo:** 2025-02
 
 ---
 
-## 👥 Integrantes del Equipo
+## Integrantes del Equipo
 
 1. César Gabriel Avalos Sánchez		-	u202310307
 2. Fabian Marcelo Rojas Cuadros		-	u202218498

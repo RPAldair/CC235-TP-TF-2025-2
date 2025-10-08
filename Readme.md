@@ -53,7 +53,7 @@ Desarrollar un sistema automatizado que aplique técnicas de procesamiento digit
 
 Y el mismo volumen de imagenes en mascaras de las distintas clases de radiografias, sumando más de 40 000 registros. Además se nos brinda, para cada clase, si respectivo archivo de metadatos, con información simple de los conjuntos.
 
-En esta oportunidad tomaremos un conjunto de 10,000 imagenes aproximaramente con proporciones similares al del conjunto completo como dataset Original.
+En esta oportunidad tomaremos un conjunto de 10,000 imagenes aproximadamente con proporciones similares al del conjunto completo como dataset Original.
 
 ### Características
 - **Formato:** PNG

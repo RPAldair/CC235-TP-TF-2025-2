@@ -12,10 +12,10 @@ Sistema inteligente de procesamiento y clasificación de imágenes radiográfica
 
 ## 👥 Integrantes del Equipo
 
-César Gabriel Avalos Sánchez		-	u202310307
-Fabian Marcelo Rojas Cuadros		-	u202218498
-Leonardo Franco Gamboa Huilcaya	-	u202322950
-Piero Aldair Rivas Pinto			-	u202122405
+1. César Gabriel Avalos Sánchez		-	u202310307
+2. Fabian Marcelo Rojas Cuadros		-	u202218498
+3. Leonardo Franco Gamboa Huilcaya	-	u202322950
+4. Piero Aldair Rivas Pinto			-	u202122405
 
 ---
 

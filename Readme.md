@@ -96,7 +96,7 @@ En esta oportunidad tomaremos como dataset el conjunto Normal de 10,000 imagenes
 
 
 
-## 📝 Licencia
+## Licencia
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 

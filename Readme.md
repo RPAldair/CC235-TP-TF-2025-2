@@ -78,40 +78,6 @@ Desarrollar un sistema automatizado que aplique técnicas de procesamiento digit
 - Detección de bordes (Canny, Sobel)
 - Operaciones morfológicas (erosión, dilatación)
 
-### 4. Modelos Implementados
-
-#### Modelo Clásico
-```
-Realce → Segmentación → Extracción Features → Clasificación
-                         (HOG, LBP, GLCM)      (SVM / Random Forest)
-```
-
-**Características extraídas:**
-- HOG (Histogram of Oriented Gradients)
-- LBP (Local Binary Patterns)
-- GLCM (Gray-Level Co-occurrence Matrix)
-- Estadísticas del histograma
-
-#### Modelo Deep Learning
-```
-ResNet50 (ImageNet) → Fine-tuning → Clasificación (4 clases)
-```
-
-**Arquitectura:**
-- Base: ResNet50 preentrenada
-- Global Average Pooling
-- Dense(512) + Dropout(0.5)
-- Dense(256) + Dropout(0.3)
-- Softmax(4)
-
-**Entrenamiento:**
-- Optimizador: Adam (lr=1e-4)
-- Data Augmentation
-- Early Stopping
-- ReduceLROnPlateau
-
----
-
 ## Referencias Bibliográficas
 
 1. ACT Accelerator Ethics & Governance Working Group. (2020, 28 mayo). Ethical considerations to guide the use of digital proximity tracking technologies for COVID-19 contact tracing. Recuperado de https://www.who.int/publications/i/item/WHO-2019-nCoV-Ethics_Contact_tracing_apps-2020.1 
